@@ -10,4 +10,8 @@ public class HomeController {
     public @ResponseBody String greeting(){
         return "Hello, DevOps!";
     }
+    @GetMapping("/home")
+    public @ResponseBody String greetingHome(){
+        return "Hello, Home!";
+    }
 }
