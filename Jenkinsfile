@@ -9,7 +9,6 @@ pipeline {
             steps {
                 echo "Initializing.."
                 echo "$IMAGE_TAG"
-                git 'https://github.com/EmilK102/cicd-test.git'
             }
         }
         stage('Build') {
