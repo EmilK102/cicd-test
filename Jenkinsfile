@@ -1,6 +1,6 @@
 pipeline {
     agent any
-
+    // gfdgfg
     environment {
         IMAGE_TAG = "${env.BUILD_NUMBER}-${env.BUILD_ID}"
     }
